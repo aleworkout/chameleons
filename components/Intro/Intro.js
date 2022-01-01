@@ -9,7 +9,7 @@ const Intro = () => {
           <h2 className={styles._title}>
             Welcome to the
             <br />
-            <span>Charming Chameleons</span>
+            <span>Cauligenous Chameleons</span>
           </h2>
           <p>
             The Cauligenous Chameleons is a private collection of

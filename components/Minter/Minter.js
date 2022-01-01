@@ -31,7 +31,7 @@ const Minter = () => {
           <p className={styles._subtitle}>The sale has ended.</p>
 
           <p className={styles._subtitle}>
-            You can still find Charming Chameleons on
+            You can still find Cauligenous Chameleons on
           </p>
 
           <a

@@ -3,7 +3,7 @@ export const features = [
     id: 1,
     title: 'Unique Art',
     details:
-      'First collection is a 3310 pieces free unique 8-bit chameleons. These are generated programmatically using an open-source Python script. This collection will be followed by 10,000 Chameleon avatar NFTs. Charming Chameleons will be the start of an ambitious startup aiming to create the first virtual bank (Cricket Bank) in the metaverse.',
+      'First collection is a 3310 pieces free unique 8-bit chameleons. These are generated programmatically using an open-source Python script. This collection will be followed by 10,000 Chameleon avatar NFTs. Cauligenous Chameleons will be the start of an ambitious startup aiming to create the first virtual bank (Cricket Bank) in the metaverse.',
     photoUrl: '/features/unique.svg',
   },
   {
