@@ -11,7 +11,7 @@ const Countdown = () => {
   let interval;
 
   const startTimer = () => {
-    const countDownDate = new Date('Dec 21, 2021').getTime();
+    const countDownDate = new Date('Jan 07, 2022').getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -26,8 +26,9 @@ const Countdown = () => {
       const seconds = Math.floor((distance % (60 * 1000)) / 1000);
 
       if (distance < 0) {
-        // Stop Timer
+        // => Maybe here I need to change the minterOn state? How?
 
+        // Stop Timer
         clearInterval(interval.current);
       } else {
         // Update Timer

@@ -1,58 +1,58 @@
 export const roadMapData = [
   {
     id: 1,
-    title: "The preparation",
+    title: "Free 8-bit Chameleons launch",
     description:
-      "The Ancient Cats are still waiting and preparing for the constellation of Orion to perfectly align with the Pyramids of Giza so that the interstellar portal can open up and they can finally return to Earth.",
+      "3310 8-bit Cauligenous Chameleons will be launched for presale on 24th February 2022 free for minting and on 25th February for public sale. Only gas fees will need to be paid. The 23% of this collection are rare chameleons, and 12% are the rarest of the chameleons. The rarity is based on the real rare chameleons. 23% of these chameleons are based on the rare Smith’s Dwarf Chameleon and 12% are based on The Chapman's Pygmy Chameleon. The remaining 65% are common green chameleons.",
     percentage: "10",
   },
   {
     id: 2,
-    title: "The Legends",
+    title: "10,000 pieces Chameleon avatars launch",
     description:
-      "Legendary Figures of the Ancient Cats Club will make theirselves known, with them comes great powers and even greater benefits.",
+      "10,000 pieces of new avatar chameleons will be launched for presale on 24th March 2022 and for public sale on 25th March 2022. These chameleons will be sold for 0.09 ETH +gas fees for pre-early sale and 0.16 ETH + gas fees for the remaining.",
     percentage: "20",
   },
   {
     id: 3,
-    title: "The Distribution",
+    title: "Helping the environment, recovering carbon emissions",
     description:
-      "To prepare for their arrival and build a base of supporters, the Ancient Cats are organizing events, contests, giveaways and will provide wealth for the true believers thanks to their interstellar tech.",
+      "We will encourage our community to make donations to wildlife charities and to plant trees to remove our carbon footprints that we create with the transactions. Furthermore, the company Waynestark Enterprises Limited will donate 10% of profits from sales and 5% of the royalties to environmental charities and planting trees to recover emissions.",
     percentage: "30",
   },
   {
     id: 4,
-    title: "The Cosmic Event",
+    title: "Distributing royalties",
     description:
-      "The cosmic event has finally came. The constellation of Orion is perfectly aligned with the pyramids and the Ancient Cats Club is finally back on earth to build a new era Empire.",
+      "Once a resale occurs on secondary markets (e.g. OpenSea) we will start distributing the royalties to our first 3300 8-bit Chameleon holders. This will be for the first 3300 Chameleon holders for all the NFT resales.",
     percentage: "40",
   },
   {
     id: 5,
-    title: "The Treasury",
+    title: "Raising capital for the venture, building the venture and the Cricket Bank",
     description:
-      "The Sphinx Fund will be setup and available to finance community artists and and creators. But also especially project’s expansion, creations, designs and development. Also 1% of the Opensea royalties will be dedicated to this special fund, thus ensuring the Club’s longevity.",
+      "Once all the NFTs are sold out, we will start building our startup and start raising capital from investors to build a team of people. We will continue to engage our community during this journey.Launch of a Pre-seed round for the venture. Every chameleon holder will have early access to our crowdfunding to have shares in our FinTech venture. The investment will also be open to institutional investors (e.g. Venture Capital) and angel investors.",
     percentage: "50",
   },
   {
     id: 6,
-    title: "The Mastermind",
+    title: "Buying virtual land and building infrastructure",
     description:
-      "The Club takes care of its members. Exclusive business channels about investments and business will be opened for holders. The best speakers and opinion leaders in areas like crypto, investments and business will be invited to share their knowledge and private infos.",
+      "With the funds, we will start buying land in Decentraland and Sandbox where we will build our virtual bank in the metaverse. These will be our first branches. The infrastructure will be built on an environmentally friendly network that consumes less energy for transactions and mining or we will build our own network and cryptocurrency for this purpose.",
     percentage: "60",
   },
   {
     id: 7,
-    title: "The Ancients Cats Way",
+    title: "Tokens and Cryptocurrency",
     description:
-      "As in ancient Egypt, the Ancient Cats like to establish their style, which is why there will also be a collection of digital and physical Merch for the true believers.",
+      "We will build and launch a token of our own for the Cricket Bank. Following this, we will launch our cryptocurrency on an environmental friendly network. This currency will be essential for transactions when we build the our metaverse bank.",
     percentage: "80",
   },
   {
     id: 8,
-    title: "The Stellar Party",
+    title: "Wallet and the bank",
     description:
-      "An exclusive Ancient Cats Club yacht party will be organized in Dubai to reward the true believers and to announce the next move of the club and to prepare for chapter II.",
+      "We will disrupt the wallet space with our new model. This is only the beginning for chameleons and cricket bank. Not a 100% completion.",
     percentage: "100",
   },
 ];

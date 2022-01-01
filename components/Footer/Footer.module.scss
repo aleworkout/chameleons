@@ -4,7 +4,11 @@
   padding: 20px 0;
 
   @media screen and (min-width: 900px) {
-    padding: 0;
+    padding: 20px;
+  }
+
+  @media screen and (max-width: 599px) {
+    padding: 20px;
   }
 
   ._spacing {

@@ -13,11 +13,13 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    
 
     ._feature {
       width: 400px;
       margin: 25px;
       padding: 40px;
+      // height: fit-content;
       background-color: rgba(95, 129, 93, 0.452);
       border: 1px solid var(--bg-color-feature);
       @media screen and (max-width: 599px) {

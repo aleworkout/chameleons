@@ -5,15 +5,14 @@ const TheNewEraEmpireIsComing = () => {
   return (
     <div className={styles.faq_Conclusion}>
       <h2 className={styles.faq_Conclusion_Title}>
-        The New Era Empire Is Coming
+        The first ever virtual bank in metaverse is coming!
       </h2>
 
       <p className={styles.faq_Conclusion_details}>
-        The Ancient Cats Club has returned and will establish its leadership and
-        empire over the world as it had before. Join us now on Discord!
+        Join us now on Discord.
       </p>
 
-      <Button>Let&apos;s build the Empire</Button>
+      <Button>Let&apos;s build together</Button>
     </div>
   );
 };

@@ -22,13 +22,20 @@ const Footer = () => {
           <Image src="/logo.png" height={100} width={200} alt="logo" />
         </Grid>
         <Grid item xs={12} md={6}>
-          <Typography
+          {/* <Typography
             variant="subtitle1"
             align="center"
             style={{ fontWeight: "bold", padding: "0 3px" }}
           >
-            &copy; {new Date().getFullYear()} Charming Chameleons. All rights
+            &copy; {new Date().getFullYear()} Charming Chameleons and Cricket Bank. All rights
             reserved.
+          </Typography> */}
+          <Typography
+            variant="subtitle2"
+            align="center"
+            style={{ padding: "0 3px" }}
+          >
+            &copy; {new Date().getFullYear()} Cauligenous Chameleons and Cricket Bank are trademarks of Waynestark Enterprises Limited; Registered in England. Company number: 13558188. Registered Address: 21D Heathmans Road, Fulham, London, SW6 4TJ, England. All rights reserved.
           </Typography>
         </Grid>
         <Grid item xs={12} sm={6} md={3} className={styles._social_links}>
@@ -38,9 +45,9 @@ const Footer = () => {
           <a href="#" target="_blank" rel="noopener noreferrer">
             <RiInstagramFill className={styles._social_icon} />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          {/* <a href="#" target="_blank" rel="noopener noreferrer">
             <RiFacebookCircleFill className={styles._social_icon} />
-          </a>
+          </a> */}
           <a href="#" target="_blank" rel="noopener noreferrer">
             <RiTwitterFill className={styles._social_icon} />
           </a>

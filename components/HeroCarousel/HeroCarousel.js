@@ -39,7 +39,7 @@ const HeroCarousel = () => {
             <img
               src={image.image}
               alt="NFT collection"
-              style={{ width: "100%", height: "100%", padding: "5px" }}
+              style={{ width: "100%", height: "100%", padding: "30px" }}
             />
           </div>
         ))}

@@ -8,7 +8,7 @@ const RoadMap = () => {
   return (
     <div className={styles.roadmap_wrapper}>
       <h2 className={styles.roadmap_title}>
-        The Arrival Phase |<span>Launch Roadmap</span>
+        Launch <span>Roadmap</span>
       </h2>
 
       <Grid
@@ -50,6 +50,20 @@ const RoadMap = () => {
           </Grid>
         ))}
       </Grid>
+      <Grid
+        container
+        justifyContent="center"
+        alignItems="center"
+        alignContent="center"
+      >
+        <p>
+          Please do read our full Roadmap on our&ensp;
+          <a href="https://onur-aydogan2.gitbook.io/cauligenous-chameleons-and-cricket-bank/" target="_blank">
+            Whitepaper
+          </a>
+        </p>
+      </Grid>
+
     </div>
   );
 };

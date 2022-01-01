@@ -1,60 +1,93 @@
 export const faqs = [
   {
     id: 1,
-    title: 'What is Ancient Cats Club?',
+    title: 'What is the Cauligenous Chameleons?',
     ans: [
-      'The Ancient Cats Club is a private collection of 2800 Ancient Cats NFTs— unique digital collectibles. The Ancient Cats are stored as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS. Each NFT is unique and provides full commercial rights.',
+      'Cauligenous Chameleons is an NFT community with a vision to build a blockchain-based virtual bank for metaverse and a mission to make a positive impact for climate change.',
     ],
   },
   {
     id: 2,
-    title: 'When is the launch?',
+    title: 'When are the NFT launches?',
     ans: [
-      'Pre-Sale Date: November 27th at 3PM PST | 6PM EST | 11PM UTC.',
-      'Public Sale Date: November 28th at 4PM PST | 7PM EST | 12AM UTC.',
+      'Presale date for 8-bit Chameleons: 24th February 2022 at 1pm',
+      'PST | 4pm EST | 9pm GMT',
+      'Sale date for 8-bit Chameleons: 25th February 2022 at 1pm',
+      'PST | 4pm EST | 9pm GMT',
+      'Presale date for 10k Chameleon avatars: 24th March 2022 at 1pm',
+      'PST | 4pm EST | 9pm GMT',
+      'Sale date for 10k Chameleon avatars: 25th March 2022 at 1pm',
+      'PST | 4pm EST | 9pm GMT',
     ],
   },
   {
     id: 3,
     title: 'What will be the mint price?',
     ans: [
-      'Pre-Sale Price: 0.10 ETH.',
-      'Public Sale Price: Dutch Auction starting at 0.2 ETH & ending at 0.15 ETH.',
-      'Dutch Auction is a reversed auction, the price will start at 0.2 ETH for the first 6 hours, then drop to 0.15 ETH and stabilizes there until sold out.',
+      'The first 8-bit 3310 pieces of Chameleons are free. You only need to pay the gas fees. Second launch will be for 10,000 pieces of Chameleon avatars. 3310 pieces of avatar NFTs will be sold for 0.09 ETH +gas fees for pre-early sale. We will then launch the public sale at 0.16 ETH+gas fees for the remaining from the 10,000 pieces chameleons.'
     ],
   },
   {
     id: 4,
     title: 'How are you planning to use the funds from the mint and royalties?',
     ans: [
-      'We will use the funds to expand our team: 3D artists, developers, project managers and game developers. Doing so will allow us to build exclusive virtual 3D experiences, new ways to reward our community, expand the story and universe of the project to another level, and of course increase awareness of our project through marketing.',
+      'ory and universe of the project to another level, and of course increase awareness of our project through marketing.',
     ],
   },
   {
     id: 5,
-    title: 'When will my Ancient Cat NFT be revealed?',
-    ans: ['The Ancient Cats Club NFTs will be 72h after the public sale.'],
+    title: 'When will I have my Cauligenous Chameleon and when will it be revealed?',
+    ans: [
+      'Immediately.'
+    ],
   },
   {
     id: 6,
-    title: 'Will there be a presale?',
+    title: 'Will there be a presale and whitelisting?',
     ans: [
-      'A presale will be held 24 hours before the public mint. 1000 NFTs will be available for 1000 whitelisted VIP members of the community. Join our discord for a chance to be whitelisted.',
+      'There will be. Please join our Discord for details.',
     ],
   },
   {
     id: 7,
     title: 'Why do we need royalties?',
     ans: [
-      'The amount of royalties was fixed at 8% to finance the Ancient Cats Club projects and the New Era Empire expansion. The funds collected will benefit the holders through how they are spen t to increase the popularity and strength of the project. Also, exclusive events for the holders will be organized in top cities of the world. This percentage can decrease over time.',
+      'Chameleons are all about environmental impact. We will use royalties to cover our carbon footprint caused by the sales of NFTs and donating to environmental causes. 2.5% of the sales will be used for these purposes. The remaining 2.5% will be used to build our venture, Cricket Bank. Furthermore, the remaining 5% of the 10% royalties will be distributed to our 3300 8-bit NFT holders.'
     ],
   },
   {
     id: 8,
     title: 'How many NFTs can I mint?',
     ans: [
-      'Presale members will be able to mint 1 NFTs during the first 6 hours of the presale and 2 more if there is still available after 6 hours, this is limited to 1000 members. Up to 1000 NFTs will be minted during presale.',
-      'During our public launch on November 28th at 3PM PST | 6PM EST | 11PM UTC, 2800 NFTs will be available. Each transaction will be limited to 10 NFTs.',
+      '2 NFTs for 8-bit launch and 2 NFTs for 10k avatars launch.'
+    ],
+  },
+  {
+    id: 9,
+    title: 'What is Cricket Bank?',
+    ans: [
+      'Cricket Bank will be a virtual bank in the metaverse platforms including but not limited to Decentraland and Sandbox.'
+    ],
+  },
+  {
+    id: 10,
+    title: 'How will the Cricket Bank work?',
+    ans: [
+      'In simple terms, just like the banks in MMORPG games! E.g. World of Warcraft where people and guild can store items. However, our addition will be that people will be able to use it just like a normal bank, embedded in metaverse.'
+    ],
+  },
+  {
+    id: 11,
+    title: 'What does it mean to have a Platinum Account in the Cricket Bank?',
+    ans: [
+      'Holders of Chameleon NFTs will have Platinum Accounts in the Cricket Bank. This account will be free for them with always after we launch the Cricket Bank in metaverse. It will allow holders to store, organise, and trade their assets in their inventory accounts. Check the whitepaper for more info.'
+    ],
+  },
+  {
+    id: 12,
+    title: 'When will you launch the Cricket Bank?',
+    ans: [
+      'Underlying infrastructure will be built in the next year and onwards. We are aiming to launch in metaverse by 2025.'
     ],
   },
 ];

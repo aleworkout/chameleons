@@ -9,6 +9,8 @@ import {
   RiFacebookCircleFill,
   RiShip2Fill,
 } from "react-icons/ri";
+import { SiDiscord } from "react-icons/si";
+
 import useMediaQuery from "@mui/material/useMediaQuery";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
@@ -55,7 +57,7 @@ const Header = ({
               src="/logo.png"
               alt="Charmeleons"
               width="200"
-              height="70"
+              height="100"
               objectFit="contain"
               onClick={topSection}
             />
@@ -65,11 +67,14 @@ const Header = ({
               <Grid item md={7} xs={12} className={styles.nav_wrapper}>
                 <nav className={styles.navs}>
                   <ul className={styles.nav_list}>
-                    <li className={styles.nav_item} onClick={introSection}>
+                    {/* <li className={styles.nav_item} onClick={introSection}>
                       Intro
-                    </li>
+                    </li> */}
                     <li className={styles.nav_item} onClick={featuresSection}>
                       Features
+                    </li>
+                    <li className={styles.nav_item} onClick={roadMapSection}>
+                      Environmental Impact
                     </li>
                     <li className={styles.nav_item} onClick={roadMapSection}>
                       Roadmap
@@ -80,7 +85,11 @@ const Header = ({
                     <li className={styles.nav_item} onClick={faqSection}>
                       FAQ
                     </li>
-                    <li className={styles.nav_item}>White Paper</li>
+                    <a href="https://onur-aydogan2.gitbook.io/cauligenous-chameleons-and-cricket-bank/cricketz-coin" target="_blank">
+                      <li className={styles.nav_item}>White Paper</li>
+                    </a>
+                    <li className={styles.nav_item}>Cricket Bank
+                    </li>
                   </ul>
                 </nav>
               </Grid>
@@ -124,10 +133,13 @@ const Header = ({
                         <li className={styles.nav_item}>
                           <RiTwitterFill className={styles._social_icon} />
                         </li>
-                        <li className={styles.nav_item}>
+                        {/* <li className={styles.nav_item}>
                           <RiFacebookCircleFill
                             className={styles._social_icon}
                           />
+                        </li> */}
+                        <li className={styles.nav_item}>
+                          <SiDiscord className={styles._social_icon} />
                         </li>
                       </ul>
                     </nav>
@@ -151,7 +163,7 @@ const Header = ({
               <div>
                 <nav className={styles.mobile_navs}>
                   <ul className={styles.mobile_nav_list}>
-                    <li
+                    {/* <li
                       className={styles.mobile_nav_item}
                       onClick={() => {
                         toggleMenu();
@@ -159,7 +171,7 @@ const Header = ({
                       }}
                     >
                       Intro
-                    </li>
+                    </li> */}
                     <li
                       className={styles.mobile_nav_item}
                       onClick={() => {
@@ -168,6 +180,15 @@ const Header = ({
                       }}
                     >
                       Features
+                    </li>
+                    <li
+                      className={styles.mobile_nav_item}
+                      onClick={() => {
+                        roadMapSection();
+                        toggleMenu();
+                      }}
+                    >
+                      Environmental Impact
                     </li>
                     <li
                       className={styles.mobile_nav_item}
@@ -196,7 +217,18 @@ const Header = ({
                     >
                       FAQ
                     </li>
-                    <li className={styles.mobile_nav_item}>White Paper</li>
+                    <a href="https://onur-aydogan2.gitbook.io/cauligenous-chameleons-and-cricket-bank/cricketz-coin">
+                      <li className={styles.mobile_nav_item}>White Paper</li>
+                    </a>
+                    <li
+                      className={styles.mobile_nav_item}
+                      onClick={() => {
+                        faqSection();
+                        toggleMenu();
+                      }}
+                    >
+                      Cricket Bank
+                    </li>
                   </ul>
                 </nav>
                 <nav className={styles.icon_navs}>
