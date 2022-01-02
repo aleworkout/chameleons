@@ -19,7 +19,7 @@ const Intro = () => {
 
 
             &ensp;
-            <a href="https://github.com/benyaminahmed/nft-image-generator" target="_blank">
+            <a href="https://github.com/benyaminahmed/nft-image-generator" target="_blank" rel="noopener noreferrer">
 
               open source script.
             </a>
@@ -75,12 +75,12 @@ const Intro = () => {
           </p>
           <p>
             Read&ensp;
-            <a href="https://onur-aydogan2.gitbook.io/cauligenous-chameleons-and-cricket-bank/" target="_blank">
+            <a href="https://onur-aydogan2.gitbook.io/cauligenous-chameleons-and-cricket-bank/" target="_blank" rel="noopener noreferrer">
 
               Cricket Bank
             </a>
             &ensp;and&ensp;
-            <a href="https://onur-aydogan2.gitbook.io/cauligenous-chameleons-and-cricket-bank/" target="_blank">
+            <a href="https://onur-aydogan2.gitbook.io/cauligenous-chameleons-and-cricket-bank/" target="_blank" rel="noopener noreferrer">
 
               Whitepaper
             </a>

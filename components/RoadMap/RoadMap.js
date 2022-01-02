@@ -58,7 +58,7 @@ const RoadMap = () => {
       >
         <p>
           Please do read our full Roadmap on our&ensp;
-          <a href="https://onur-aydogan2.gitbook.io/cauligenous-chameleons-and-cricket-bank/" target="_blank">
+          <a href="https://onur-aydogan2.gitbook.io/cauligenous-chameleons-and-cricket-bank/" target="_blank" rel="noopener noreferrer">
             Whitepaper
           </a>
         </p>

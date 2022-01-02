@@ -36,7 +36,7 @@ const Minter = () => {
 
           <a
             href="#"
-            target="_blank"
+            target="_blank" rel="noopener noreferrer"
             style={{
               color: "black",
               border: "1px solid gray",

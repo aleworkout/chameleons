@@ -85,7 +85,7 @@ const Header = ({
                     <li className={styles.nav_item} onClick={faqSection}>
                       FAQ
                     </li>
-                    <a href="https://onur-aydogan2.gitbook.io/cauligenous-chameleons-and-cricket-bank/cricketz-coin" target="_blank">
+                    <a href="https://onur-aydogan2.gitbook.io/cauligenous-chameleons-and-cricket-bank/cricketz-coin" target="_blank" rel="noopener noreferrer">
                       <li className={styles.nav_item}>White Paper</li>
                     </a>
                     <li className={styles.nav_item}>Cricket Bank
