@@ -23,6 +23,7 @@ const Header = ({
   teamSection,
   whitePaperSection,
   faqSection,
+  cricketBankSection
 }) => {
   const matches = useMediaQuery("(max-width:1024px)");
   const mobileSize = useMediaQuery("(max-width: 899px)");
@@ -73,9 +74,9 @@ const Header = ({
                     <li className={styles.nav_item} onClick={featuresSection}>
                       Features
                     </li>
-                    <li className={styles.nav_item} onClick={roadMapSection}>
+                    {/* <li className={styles.nav_item} onClick={roadMapSection}>
                       Environmental Impact
-                    </li>
+                    </li> */}
                     <li className={styles.nav_item} onClick={roadMapSection}>
                       Roadmap
                     </li>
@@ -85,11 +86,10 @@ const Header = ({
                     <li className={styles.nav_item} onClick={faqSection}>
                       FAQ
                     </li>
+                    <li className={styles.nav_item} onClick={cricketBankSection}>Cricket Bank</li>
                     <a href="https://onur-aydogan2.gitbook.io/cauligenous-chameleons-and-cricket-bank/cricketz-coin" target="_blank" rel="noopener noreferrer">
                       <li className={styles.nav_item}>White Paper</li>
                     </a>
-                    <li className={styles.nav_item}>Cricket Bank
-                    </li>
                   </ul>
                 </nav>
               </Grid>
@@ -181,7 +181,7 @@ const Header = ({
                     >
                       Features
                     </li>
-                    <li
+                    {/* <li
                       className={styles.mobile_nav_item}
                       onClick={() => {
                         roadMapSection();
@@ -189,7 +189,7 @@ const Header = ({
                       }}
                     >
                       Environmental Impact
-                    </li>
+                    </li> */}
                     <li
                       className={styles.mobile_nav_item}
                       onClick={() => {
@@ -217,18 +217,19 @@ const Header = ({
                     >
                       FAQ
                     </li>
-                    <a href="https://onur-aydogan2.gitbook.io/cauligenous-chameleons-and-cricket-bank/cricketz-coin">
-                      <li className={styles.mobile_nav_item}>White Paper</li>
-                    </a>
+
                     <li
                       className={styles.mobile_nav_item}
                       onClick={() => {
-                        faqSection();
+                        cricketBankSection();
                         toggleMenu();
                       }}
                     >
                       Cricket Bank
                     </li>
+                    <a href="https://onur-aydogan2.gitbook.io/cauligenous-chameleons-and-cricket-bank/cricketz-coin">
+                      <li className={styles.mobile_nav_item}>White Paper</li>
+                    </a>
                   </ul>
                 </nav>
                 <nav className={styles.icon_navs}>

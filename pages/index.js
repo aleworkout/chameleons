@@ -28,6 +28,7 @@ export default function Home() {
   const roadMapDiv = useRef();
   const teamDiv = useRef();
   const faqDiv = useRef();
+  const bankDiv = useRef();
 
   const topSection = () => {
     topDiv?.current?.scrollIntoView({ behavior: 'smooth' });
@@ -47,6 +48,9 @@ export default function Home() {
   const faqSection = () => {
     faqDiv?.current?.scrollIntoView({ behavior: 'smooth' });
   };
+  const cricketBankSection = () => {
+    bankDiv?.current?.scrollIntoView({ behavior: 'smooth' });
+  };
 
   return (
     <div>
@@ -64,6 +68,7 @@ export default function Home() {
           teamSection={teamSection}
           faqSection={faqSection}
           topSection={topSection}
+          cricketBankSection={cricketBankSection}
         />
         {/* até aqui deu boa */}
         <div className="custom_container">
@@ -89,7 +94,9 @@ export default function Home() {
           <section ref={roadMapDiv}>
             <RoadMap />
           </section>
-          <RoadMapConclusion />
+          <section ref={bankDiv}>
+            <RoadMapConclusion />
+          </section>
           <section ref={teamDiv}>
             <Founder />
           </section>

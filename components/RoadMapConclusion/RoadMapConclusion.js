@@ -127,7 +127,15 @@ const RoadMapConclusion = () => {
 
             </ul>
             <div className={styles._roadmap_conclusion_button}>
-              <Button>Read our Whitepaper</Button>
+              <p>
+                Read&ensp;
+
+                <a href="https://onur-aydogan2.gitbook.io/cauligenous-chameleons-and-cricket-bank/" target="_blank" rel="noopener noreferrer">
+
+                  Our Whitepaper
+                </a>
+                &ensp;for further details!
+              </p>
             </div>
           </div>
         </Grid>
