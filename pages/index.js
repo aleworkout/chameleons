@@ -85,9 +85,9 @@ export default function Home() {
           <section ref={introDiv}>
             <Intro />
           </section>
-          <section>
+          {/* <section>
             <HeroCarousel />
-          </section>
+          </section> */}
           <section ref={featuresDiv}>
             <Features />
           </section>

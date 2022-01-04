@@ -31,7 +31,7 @@ export const faqs = [
     id: 4,
     title: 'How are you planning to use the funds from the mint and royalties?',
     ans: [
-      'ory and universe of the project to another level, and of course increase awareness of our project through marketing.',
+      'Profits from 10k Chameleon avatars and  a 10% royalty fee for any resales that an NFT holder might make will be the main incomes, We  will be donating 5% of profits and royalties in total to an environmental impact charity. Remaining 5% of the funds will be used for building the venture for Cricket Bank and helping to manage and engage our community with our team members.'
     ],
   },
   {

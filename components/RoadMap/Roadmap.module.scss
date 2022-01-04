@@ -16,6 +16,13 @@
       margin-left: 5px;
     }
   }
+
+  a {
+    color:black;
+    background-color: #FFFF00;
+    font-weight: bold;
+  }  
+
   .roadmap_container {
     margin-bottom: 20px;
     min-height: 180px;
@@ -125,6 +132,7 @@
           text-align: center;
           margin-top: 20px;
           font-size: 18px;
+          padding: 0 2em 0 2em;
         }
       }
       p {
@@ -132,8 +140,9 @@
         max-width: 650px;
         @media screen and (max-width: 599px) {
           text-align: center;
-          padding: 0 20px;
+          padding: 0 2em 0 2em;
           font-size: 14px;
+          
         }
       }
     }

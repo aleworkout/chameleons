@@ -7,7 +7,7 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 const RoadMapConclusion = () => {
   const matches = useMediaQuery('(max-width:1024px)');
   return (
-    <div className="custom_container">
+    <div className={styles.roadmap_conclusion}>
       <Grid
         container
         spacing={1}
@@ -19,8 +19,8 @@ const RoadMapConclusion = () => {
         {/* <Image src="/chameleon.jpg" width={400} height={400} alt="horus1" /> */}
         <Image
           src="/logo_white_background.jpg"
-          width={400}
-          height={400}
+          width={300}
+          height={200}
           alt="horus1"
           objectFit="contain"
           loading="lazy"

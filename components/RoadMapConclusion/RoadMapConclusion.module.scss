@@ -1,5 +1,5 @@
 .roadmap_conclusion {
-  padding: 10px;
+  padding: 1em;
   // display: flex;
   // align-items: center;
   // flex-direction: column;
@@ -11,12 +11,15 @@
   //   margin: 0 auto;
   // }
 
+  
+
   .roadmap_conclusion_left_image {
     display: flex;
     justify-content: center;
     align-items: center;
     ._roadmap_conclusion_image {
       border-radius: 5px;
+      padding: 2em;
     }
     @media screen and (max-width: 599px) {
       margin-bottom: 20px;
@@ -99,6 +102,12 @@
         justify-content: center;
         align-items: center;
       }
+
+      a {
+        color:black;
+        background-color: #FFFF00;
+        font-weight: bold;
+      }  
     }
     
   }
