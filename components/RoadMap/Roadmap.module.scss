@@ -17,12 +17,15 @@
     }
   }
 
-  a {
-    color:black;
-    background-color: #FFFF00;
-    font-weight: bold;
+  p {
     padding: 2em;
-  }  
+    a {
+      color:black;
+      background-color: #FFFF00;
+      font-weight: bold;
+      
+    } 
+  }
 
   .roadmap_container {
     margin-bottom: 20px;
