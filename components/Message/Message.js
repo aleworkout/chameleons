@@ -36,15 +36,15 @@ const RoadMapConclusion = () => {
                 </Grid>
                 <Grid item md={matches ? 8 : 5} sm={7} xs={12}>
                     <h2 className={styles.roadmap_conclusion_title}>
-                        The New Era Empire Phase <br />
-                        <span>Development Roadmap</span>
+                        A few things&ensp;
+                        <span>to remember</span>
                     </h2>
                     <div className={styles.roadmap_conclusion_details}>
                         <p>
                             By being an NFT holder you agree that you are interested in holding a Platinum account in the Cricket Bank once we launch our metaverse bank. We will not encourage our members to set a certain floor price. Anyone can sell their NFTs as they wish at any price they wish. However, this means that they will lose their privilege rights to be a Platinum account holder. Holding a Platinum account with its benefits in our metaverse bank Cricket Bank will be always free for the NFT holders. We suggest the potential interested people to not approach this as a usual NFT project. This is more than an NFT project with building the first virtual bank in metaverse. Only do your minting if you feel passionate about the idea, the vision, and execution after reading the whitepaper and roadmap clearly. We are onto something big and would like to build a genuine community with clear interest in a startup that aims to build a metaverse bank.
                         </p>
                         <div className={styles._roadmap_conclusion_button}>
-                            <Button>Join our Club</Button>
+                            <Button>Join Discord</Button>
                         </div>
                     </div>
                 </Grid>

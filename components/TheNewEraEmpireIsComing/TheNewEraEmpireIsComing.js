@@ -12,7 +12,7 @@ const TheNewEraEmpireIsComing = () => {
         Join us now on Discord.
       </p>
 
-      <Button>Let&apos;s build together</Button>
+      <Button>Let&apos;s build it together</Button>
     </div>
   );
 };
