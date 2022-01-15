@@ -2,6 +2,10 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Image from "next/image";
 
+import Button from "../../global/Button/Button";
+import styles from "./Intro.module.scss";
+
+
 const images = [
   { id: 1, image: "/team/acc-eg-3.png" },
   { id: 2, image: "/team/acc-eg-4.png" },
@@ -32,7 +36,7 @@ const responsive = {
 
 const HeroCarousel = () => {
   return (
-    <div>
+    <div className={styles.intro}>
       <Carousel responsive={responsive} infinite autoPlay autoPlaySpeed={3000}>
         {images.map((image) => (
           <div key={image.id}>
@@ -44,6 +48,14 @@ const HeroCarousel = () => {
           </div>
         ))}
       </Carousel>
+      <div className={styles._intro_data}>
+        <article className={styles._first_intro}>
+          <div className={styles._div}>
+            <Button>Get Whitelisted</Button>
+          </div>
+        </article>
+        <br />
+      </div>
     </div>
   );
 };

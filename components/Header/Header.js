@@ -125,13 +125,19 @@ const Header = ({
                         }}
                       >
                         <li className={styles.nav_item}>
-                          <RiShip2Fill className={styles._social_icon} />
+                          <a href="https://opensea.io/collection/cauligenous-chameleons" target="_blank" rel="noopener noreferrer">
+                            <RiShip2Fill className={styles._social_icon} />
+                          </a>
                         </li>
                         <li className={styles.nav_item}>
-                          <RiInstagramFill className={styles._social_icon} />
+                          <a href="https://www.instagram.com/cauligenouschameleons/" target="_blank" rel="noopener noreferrer">
+                            <RiInstagramFill className={styles._social_icon} />
+                          </a>
                         </li>
                         <li className={styles.nav_item}>
-                          <RiTwitterFill className={styles._social_icon} />
+                          <a href="https://mobile.twitter.com/CauligenousCham" target="_blank" rel="noopener noreferrer">
+                            <RiTwitterFill className={styles._social_icon} />
+                          </a>
                         </li>
                         {/* <li className={styles.nav_item}>
                           <RiFacebookCircleFill
@@ -139,7 +145,9 @@ const Header = ({
                           />
                         </li> */}
                         <li className={styles.nav_item}>
-                          <SiDiscord className={styles._social_icon} />
+                          <a href="https://discord.com/invite/yGNvcMtqmv" target="_blank" rel="noopener noreferrer">
+                            <SiDiscord className={styles._social_icon} />
+                          </a>
                         </li>
                       </ul>
                     </nav>
@@ -241,16 +249,24 @@ const Header = ({
                     }}
                   >
                     <li className={styles.icon_nav_item}>
-                      <RiShip2Fill className={styles._social_icon} />
+                      <a href="https://opensea.io/collection/cauligenous-chameleons" target="_blank" rel="noopener noreferrer">
+                        <RiShip2Fill className={styles._social_icon} />
+                      </a>
                     </li>
                     <li className={styles.icon_nav_item}>
-                      <RiInstagramFill className={styles._social_icon} />
+                      <a href="https://www.instagram.com/cauligenouschameleons/" target="_blank" rel="noopener noreferrer">
+                        <RiInstagramFill className={styles._social_icon} />
+                      </a>
                     </li>
                     <li className={styles.icon_nav_item}>
-                      <RiTwitterFill className={styles._social_icon} />
+                      <a href="https://mobile.twitter.com/CauligenousCham" target="_blank" rel="noopener noreferrer">
+                        <RiTwitterFill className={styles._social_icon} />
+                      </a>
                     </li>
                     <li className={styles.icon_nav_item}>
-                      <RiFacebookCircleFill className={styles._social_icon} />
+                      <a href="https://discord.com/invite/yGNvcMtqmv" target="_blank" rel="noopener noreferrer">
+                        <SiDiscord className={styles._social_icon} />
+                      </a>
                     </li>
                   </ul>
                 </nav>

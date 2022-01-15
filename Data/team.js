@@ -7,9 +7,9 @@ export const team = [
   },
   {
     id: 1,
-    name: 'Curious Chameleon',
-    position: 'Programmer and Promoter',
-    photoUrl: '/team/Programmer and Promoter-Curious Chameleon.png',
+    name: 'Chameleonkeke',
+    position: 'Lead Visual Development Artist',
+    photoUrl: '/team/Lead Visual Development Artist.png',
   },
   {
     id: 2,
@@ -22,5 +22,11 @@ export const team = [
     name: 'Amazon Chameleon',
     position: 'Lead Developer',
     photoUrl: '/team/Lead Developer-Amazon Chameleon.png',
+  },
+  {
+    id: 4,
+    name: 'Curious Chameleon',
+    position: 'Programmer and Promoter',
+    photoUrl: '/team/Programmer and Promoter-Curious Chameleon.png',
   },
 ];

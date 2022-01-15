@@ -14,16 +14,16 @@ const Minter = () => {
 
   return (
     <div className={styles.minter}>
-      <h2 className={styles._title}>Public Sale Is Live :</h2>
+      {/* <h2 className={styles._title}>Public Sale Is Live :</h2> */}
 
-      {!isConnected && (
+      {/* {!isConnected && (
         <h2
           className={styles._title}
           style={{ color: "#f2f850", marginTop: "20px" }}
         >
           New to Metamask?
         </h2>
-      )}
+      )} */}
       {isConnected ? (
         <div className={styles._connect_wallet}>
           <h2 className={styles._title}>2800 / 2800</h2>
@@ -61,12 +61,12 @@ const Minter = () => {
         <Card className={styles._card}>
           <CardContent className={styles._card_content}>
             <AccountBalanceWalletIcon style={{ fontSize: "50px" }} />
-            <Typography variant="h6" color="inherit">
+            {/* <Typography variant="h6" color="inherit">
               Yes, let&apos;s get set up!
             </Typography>
             <Typography variant="subtitle2" color="inherit" component="p">
               This will create a new wallet and seed phrase!
-            </Typography>
+            </Typography> */}
             <button className={styles.wallet_btn} onClick={handleClick}>
               connect a wallet
             </button>

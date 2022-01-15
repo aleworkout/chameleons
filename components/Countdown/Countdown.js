@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import Clock from './Clock';
 import styles from './Countdown.module.scss';
 
-const Countdown = () => {
+const Countdown = ({ setMinterOn }) => {
   const [timerDays, setTimerDays] = useState();
   const [timerHours, setTimerHours] = useState();
   const [timerMinutes, setTimerMinutes] = useState();
@@ -11,7 +11,7 @@ const Countdown = () => {
   let interval;
 
   const startTimer = () => {
-    const countDownDate = new Date('Jan 04, 2022 12:00:00').getTime();
+    const countDownDate = new Date('Jan 15, 2022 12:00:00').getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -27,7 +27,7 @@ const Countdown = () => {
 
       if (distance < 0) {
         // => Maybe here I need to change the minterOn state? How?
-
+        setMinterOn(true);
         // Stop Timer
         clearInterval(interval.current);
       } else {
@@ -46,7 +46,7 @@ const Countdown = () => {
 
   return (
     <section className={styles.countdown}>
-      <h2>New Arrival starts in:</h2>
+      <h2>Minting for Whitelist members starts in:</h2>
 
       <Clock
         timerDays={timerDays}

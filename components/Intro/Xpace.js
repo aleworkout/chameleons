@@ -7,9 +7,8 @@ const Xpace = () => {
       <article className={styles._first_intro}>
         <div className={styles._intro_data}>
           <h1 className={styles._title}>
-            We think NFT communities are like guilds in MMORPG games. This is why we are building a bank for metaverse!
+            This is a <b>FREE</b> mint collection. Holders will have access to the first virtual bank in the metaverse.
           </h1>
-
 
         </div>
       </article>

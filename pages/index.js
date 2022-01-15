@@ -75,13 +75,13 @@ export default function Home() {
           <section ref={introDiv}>
             <Space />
           </section>
-          <section >
-            <HeroCarousel />
-          </section>
           <section ref={introDiv}>
             <Xpace />
           </section>
-          {minterOn ? <Minter /> : <Countdown />}
+          <section >
+            <HeroCarousel />
+          </section>
+          {minterOn ? <Minter /> : <Countdown setMinterOn={setMinterOn} />}
           <section ref={introDiv}>
             <Intro />
           </section>

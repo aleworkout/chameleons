@@ -39,19 +39,19 @@ const Footer = () => {
           </Typography>
         </Grid>
         <Grid item xs={12} sm={6} md={3} className={styles._social_links}>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="https://opensea.io/collection/cauligenous-chameleons" target="_blank" rel="noopener noreferrer">
             <RiShip2Fill className={styles._social_icon} />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/cauligenouschameleons/" target="_blank" rel="noopener noreferrer">
             <RiInstagramFill className={styles._social_icon} />
           </a>
           {/* <a href="#" target="_blank" rel="noopener noreferrer">
             <RiFacebookCircleFill className={styles._social_icon} />
           </a> */}
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="https://mobile.twitter.com/CauligenousCham" target="_blank" rel="noopener noreferrer">
             <RiTwitterFill className={styles._social_icon} />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="https://discord.com/invite/yGNvcMtqmv" target="_blank" rel="noopener noreferrer">
             <SiDiscord className={styles._social_icon} />
           </a>
         </Grid>
