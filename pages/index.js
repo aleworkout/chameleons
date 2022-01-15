@@ -17,6 +17,9 @@ import TheNewEraEmpireIsComing from '../components/TheNewEraEmpireIsComing/TheNe
 import Footer from '../components/Footer/Footer';
 import RoadMapConclusion from '../components/RoadMapConclusion/RoadMapConclusion';
 import Message from '../components/Message/Message';
+import SneakPeek from '../components/SneakPeek/SneakPeek';
+import Types from '../components/Types/Types';
+import FeaturesReload from '../components/FeaturesReload/FeaturesReload';
 
 
 export default function Home() {
@@ -85,11 +88,15 @@ export default function Home() {
           <section ref={introDiv}>
             <Intro />
           </section>
+          <section>
+            <SneakPeek />
+          </section>
           {/* <section>
             <HeroCarousel />
           </section> */}
           <section ref={featuresDiv}>
-            <Features />
+            {/* <Features /> */}
+            <FeaturesReload />
           </section>
           <section ref={roadMapDiv}>
             <RoadMap />
@@ -99,6 +106,9 @@ export default function Home() {
           </section>
           <section ref={teamDiv}>
             <Founder />
+          </section>
+          <section>
+            <Types />
           </section>
           <section ref={teamDiv}>
             <Team />
