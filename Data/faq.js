@@ -10,35 +10,35 @@ export const faqs = [
     id: 2,
     title: 'When are the NFT launches?',
     ans: [
-      'Presale date for 8-bit Chameleons: 24th February 2022 at 1pm',
-      'PST | 4pm EST | 9pm GMT',
-      'Sale date for 8-bit Chameleons: 25th February 2022 at 1pm',
-      'PST | 4pm EST | 9pm GMT',
-      'Presale date for 10k Chameleon avatars: 24th March 2022 at 1pm',
-      'PST | 4pm EST | 9pm GMT',
-      'Sale date for 10k Chameleon avatars: 25th March 2022 at 1pm',
-      'PST | 4pm EST | 9pm GMT',
+      'Presale date for 8-bit Chameleons: 24th February 2022',
+      'at 1pm PST | 4pm EST | 9pm GMT',
+      'Sale date for 8-bit Chameleons: 25th February 2022',
+      'at 1pm PST | 4pm EST | 9pm GMT',
+      'Presale date for 10k Chameleon avatars: 24th March 2022',
+      'at 1pm PST | 4pm EST | 9pm GMT',
+      'Sale date for 10k Chameleon avatars: 25th March 2022',
+      'at 1pm PST | 4pm EST | 9pm GMT',
     ],
   },
   {
     id: 3,
     title: 'What will be the mint price?',
     ans: [
-      'The first 8-bit 3310 pieces of Chameleons are free. You only need to pay the gas fees. Second launch will be for 10,000 pieces of Chameleon avatars. 3310 pieces of avatar NFTs will be sold for 0.09 ETH +gas fees for pre-early sale. We will then launch the public sale at 0.16 ETH+gas fees for the remaining from the 10,000 pieces chameleons.'
+      'The first 8-bit 3310 pieces of Chameleos are free (only gas fees). Our second collection will content 10,000 pieces of Chameleon avatars. Presale and sale prices are TBD.'
     ],
   },
   {
     id: 4,
     title: 'How are you planning to use the funds from the mint and royalties?',
     ans: [
-      'Profits from 10k Chameleon avatars and  a 10% royalty fee for any resales that an NFT holder might make will be the main incomes, We  will be donating 5% of profits and royalties in total to an environmental impact charity. Remaining 5% of the funds will be used for building the venture for Cricket Bank and helping to manage and engage our community with our team members.'
+      'Profits from 10k Chameleon avatars will be used for building our startup. In addition we will donate 10% of the profits to World Wildlife Organisation and Rainforest Alliance. This will continue with covering our CO2 emissions by planting trees around the world. Furthermore, we will set a 10% royalty fee for any resales on secondary markets. Creator will set a 10% royalty fee for any resales that the holder might make, of which a 5% pool will be created and be 5% of the royalties will be distributed to the holders. Of the remaining 5%, we will donate 2.5% to an environmental impact charity and 2.5% will be used for building the startup. and helping to manage and engage our community with our team members.'
     ],
   },
   {
     id: 5,
     title: 'When will I have my Cauligenous Chameleon and when will it be revealed?',
     ans: [
-      'Immediately.'
+      'Immediately after minting.'
     ],
   },
   {
@@ -59,7 +59,8 @@ export const faqs = [
     id: 8,
     title: 'How many NFTs can I mint?',
     ans: [
-      '2 NFTs for 8-bit launch and 2 NFTs for 10k avatars launch.'
+      '2 NFTs for 8-bit collection and',
+      '4 NFTs for 10k avatar collection'
     ],
   },
   {

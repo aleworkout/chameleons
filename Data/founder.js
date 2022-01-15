@@ -1,8 +1,8 @@
 export const founder = [
   {
     id: 1,
-    name: 'Chameleon Pasha',
+    name: 'Onur Aydogan - Chameleon Pasha',
     position: 'Founder',
-    photoUrl: '/team/Founder-Chameleon Pasha.png',
+    photoUrl: '/team/Onur Aydogan.jpeg',
   },
 ];

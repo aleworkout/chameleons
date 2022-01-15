@@ -20,6 +20,7 @@ import Message from '../components/Message/Message';
 import SneakPeek from '../components/SneakPeek/SneakPeek';
 import Types from '../components/Types/Types';
 import FeaturesReload from '../components/FeaturesReload/FeaturesReload';
+import Impact from '../components/Impact/Impact';
 
 
 export default function Home() {
@@ -28,10 +29,12 @@ export default function Home() {
   const topDiv = useRef();
   const introDiv = useRef();
   const featuresDiv = useRef();
+  const impactDiv = useRef();
   const roadMapDiv = useRef();
   const teamDiv = useRef();
   const faqDiv = useRef();
   const bankDiv = useRef();
+  const founderDiv = useRef();
 
   const topSection = () => {
     topDiv?.current?.scrollIntoView({ behavior: 'smooth' });
@@ -42,11 +45,17 @@ export default function Home() {
   const featuresSection = () => {
     featuresDiv?.current?.scrollIntoView({ behavior: 'smooth' });
   };
+  const impactSection = () => {
+    impactDiv?.current?.scrollIntoView({ behavior: 'smooth' });
+  };
   const roadMapSection = () => {
     roadMapDiv?.current?.scrollIntoView({ behavior: 'smooth' });
   };
   const teamSection = () => {
     teamDiv?.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+  const founderSection = () => {
+    founderDiv?.current?.scrollIntoView({ behavior: 'smooth' });
   };
   const faqSection = () => {
     faqDiv?.current?.scrollIntoView({ behavior: 'smooth' });
@@ -69,9 +78,11 @@ export default function Home() {
           featuresSection={featuresSection}
           roadMapSection={roadMapSection}
           teamSection={teamSection}
+          founderSection={founderSection}
           faqSection={faqSection}
           topSection={topSection}
           cricketBankSection={cricketBankSection}
+          impactSection={impactSection}
         />
         {/* até aqui deu boa */}
         <div className="custom_container">
@@ -98,13 +109,16 @@ export default function Home() {
             {/* <Features /> */}
             <FeaturesReload />
           </section>
+          <section ref={impactDiv}>
+            <Impact />
+          </section>
           <section ref={roadMapDiv}>
             <RoadMap />
           </section>
           <section ref={bankDiv}>
             <RoadMapConclusion />
           </section>
-          <section ref={teamDiv}>
+          <section ref={founderDiv}>
             <Founder />
           </section>
           <section>

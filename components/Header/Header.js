@@ -23,7 +23,9 @@ const Header = ({
   teamSection,
   whitePaperSection,
   faqSection,
-  cricketBankSection
+  cricketBankSection,
+  founderSection,
+  impactSection
 }) => {
   const matches = useMediaQuery("(max-width:1024px)");
   const mobileSize = useMediaQuery("(max-width: 899px)");
@@ -74,15 +76,16 @@ const Header = ({
                     <li className={styles.nav_item} onClick={featuresSection}>
                       Features
                     </li>
-                    {/* <li className={styles.nav_item} onClick={roadMapSection}>
+                    <li className={styles.nav_item} onClick={impactSection}>
                       Environmental Impact
-                    </li> */}
+                    </li>
                     <li className={styles.nav_item} onClick={roadMapSection}>
                       Roadmap
                     </li>
                     <li className={styles.nav_item} onClick={teamSection}>
                       Team
                     </li>
+                    <li className={styles.nav_item} onClick={founderSection}>Founder</li>
                     <li className={styles.nav_item} onClick={faqSection}>
                       FAQ
                     </li>
@@ -189,15 +192,15 @@ const Header = ({
                     >
                       Features
                     </li>
-                    {/* <li
+                    <li
                       className={styles.mobile_nav_item}
                       onClick={() => {
-                        roadMapSection();
+                        impactSection();
                         toggleMenu();
                       }}
                     >
                       Environmental Impact
-                    </li> */}
+                    </li>
                     <li
                       className={styles.mobile_nav_item}
                       onClick={() => {
@@ -215,6 +218,15 @@ const Header = ({
                       }}
                     >
                       Team
+                    </li>
+                    <li
+                      className={styles.mobile_nav_item}
+                      onClick={() => {
+                        founderSection();
+                        toggleMenu();
+                      }}
+                    >
+                      Founder
                     </li>
                     <li
                       className={styles.mobile_nav_item}
